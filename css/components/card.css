@@ -1,0 +1,28 @@
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.card {
+  margin: 20px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 20px;
+  flex: 1 1 200px;
+}
+
+.card img {
+  height: 120px;
+}
+
+.card h3 {
+  font-size: 1em;
+}
+
+.card p {
+  color: rgb(120,120,120);
+}
